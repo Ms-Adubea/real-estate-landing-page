@@ -1,0 +1,197 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.74);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+#nav-items {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-list {
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.button-us {
+    background-color: rgba(184, 41, 41, 0.63);
+    border: none;
+    font-size: 20pt;
+}
+
+header {
+    background-image: url(../assets/images/decor2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.input-section {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 35%;
+    background-color: rgba(0, 0, 0, 0.74);
+    padding: 30px;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.button {
+    background-color: rgba(184, 41, 41, 0.63);
+    color: white;
+    width: 80px;
+    border: none;
+}
+
+input {
+    padding: 15px;
+    width: 30%;
+}
+
+.main-container {
+    width: 50%;
+    margin: auto;
+}
+
+.main-container h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
+}
+
+.flex-container {
+    display: flex;
+    gap: 18%;
+}
+
+.text-container {
+    width: 80%;
+}
+
+.image-container {
+    width: 100%;
+}
+
+.main-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Center horizontally */
+    justify-content: center;
+    /* Center vertically */
+    min-height: 100vh;
+    /* Ensure the section takes up the full viewport height */
+    padding: 20px;
+    /* Optional: Add padding if needed */
+}
+
+.image-container img {
+    width: 100%;
+}
+
+.text-container h2 {
+    margin-bottom: 1rem;
+}
+
+.text-container p {
+    line-height: 1.6;
+    margin-bottom: 1.2rem;
+    color: rgb(133, 127, 127);
+}
+
+.text-container a {
+    color: red;
+}
+
+.home-item img {
+    width: 100%;
+}
+
+.flex-home {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 0px;
+}
+
+
+.home h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
+}
+
+.home-item a {
+    color: red;
+}
+
+.home-item p {
+    color: rgb(133, 127, 127);
+}
+
+.home-item h3 {
+    font-size: 30px;
+}
+
+.loan-section {
+    background-color: #22242B;
+    height: 90vh;
+    margin-top: 4rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 4rem;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1.2rem;
+}
+
+.loan-section h2 {
+    color: white;
+    font-size: 75px;
+}
+
+.loan-section p {
+    color: white;
+    padding: 2rem;
+    line-height: 1.6;
+}
+
+.loan-form {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 10%;
+    padding: 15px;
+    margin-right: 20%;
+    margin-left: 20%; 
+    width: 50%;
+    height: 50px;
+    gap: 25px;
+}
+.loan-button {
+    background-color: rgba(184, 41, 41, 0.63);
+    color: white;
+    width: 80px;
+    border: none;
+    border-radius: 10px;
+}
